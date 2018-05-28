@@ -8,7 +8,7 @@ Außerdem wird zur Zeit noch die Temperatur ausgelesen. Ich habe zwei Sensoren (
 
 ## Allgemeiner Ablauf
 
-Über einen Cronjob werden die Werte ausgelesen. Fällt die Feuchtigkeit unter 60%, wird die Pumpe eingeschaltet. Ist die Pumpe über 10 Minuten an, wird sie wieder ausgeschaltet.
+Über einen Cronjob werden die Werte ausgelesen. Fällt die Feuchtigkeit unter 70%, wird die Pumpe eingeschaltet. Ist die Pumpe über 10 Minuten an, wird sie wieder ausgeschaltet.
 
 ## Visualisierung über rrdtool
 
